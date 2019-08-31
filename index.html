@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <input type="textarea" id="display" class="box display" placeholder="0" readonly>
+        <div id="main"> 
+            <div class="left">
+               <button class="lbut" id="7" onclick="addToDisplay('7')">7</button>
+               <button class="lbut" id="8" onclick="addToDisplay('8')">8</button>
+               <button class="lbut" id="9" onclick="addToDisplay('9')">9</button>
+               <button class="lbut" id="4" onclick="addToDisplay('4')">4</button>
+               <button class="lbut" id="5" onclick="addToDisplay('5')">5</button>
+               <button class="lbut" id="6" onclick="addToDisplay('6')">6</button>
+               <button class="lbut" id="1" onclick="addToDisplay('1')">1</button>
+               <button class="lbut" id="2" onclick="addToDisplay('2')">2</button>
+               <button class="lbut" id="3" onclick="addToDisplay('3')">3</button>
+               <button class="lbut" id="dot" onclick="addToDisplay('.')">.</button>
+               <button class="lbut" id="zero" onclick="addToDisplay('0')">0</button>
+               <button class="lbut" id="zero0" onclick="addToDisplay('00')">00</button>
+               <button class="equal" id="equals" onclick="calculate()">=</button>
+            </div>
+            <div class="right">
+                <button class="rbut" id="clear" onclick="clearAll()">CE</button>
+                <button class="rbut" id="divide" onclick="addToDisplay(' / ')">/</button>
+                <button class="rbut" id="multiply" onclick="addToDisplay(' * ')">x</button>
+                <button class="rbut" id="minus" onclick="addToDisplay(' - ')">-</button>
+                <button class="rbut" id="plus" onclick="addToDisplay(' + ')">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

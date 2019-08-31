@@ -1,0 +1,67 @@
+*{     
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+  }
+  #container{
+    width: 30%;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: black;
+  }
+  .box{
+    width: 85%;
+    height: 80px;
+    margin: 5%;
+    padding-right: 5%;
+    font-size: 3em;
+    font-size-adjust: 3em;
+    text-align: right;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+  }
+  #main{
+    width: 90%;
+    margin: 0% 5% 5% 5%;
+    display: inline-block;
+    background-color: black;
+  }
+  .left{
+    width: 72%;
+    float: left;
+    background-color: rgb(58, 58, 58);
+  }
+  .right{
+    width: 25%;
+    float: right;
+    background-color: rgb(58, 58, 58);
+  }
+  .lbut{
+    width: 33.3%;
+    height: 70px;
+    float: left;
+    font-size: 2.5em;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .equal{
+    width: 99.9%;
+    height: 70px;
+    font-size: 2.5em;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .rbut{
+    width: 100%;
+    height: 70px;
+    float: right;
+    font-size: 2.5em;
+    color: rgb(25, 25, 201);
+    background-color: white;
+    border-radius: 5px;
+  }
+  #clear{
+    color: maroon;
+  }
